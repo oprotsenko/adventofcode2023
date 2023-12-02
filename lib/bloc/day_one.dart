@@ -21,7 +21,6 @@ Future<String> _task1(List<String> fileContent) async {
   for (var element in numbers) {
     res += element;
   }
-  print('---> task1: $res');
   return res.toString();
 }
 
@@ -44,7 +43,6 @@ Future<String> _task2(List<String> fileContent) async {
   for (var element in numbers) {
     res += element;
   }
-  print('---> task2: $res');
   return res.toString();
 }
 

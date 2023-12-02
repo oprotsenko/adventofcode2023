@@ -36,4 +36,5 @@ dev_dependencies:
 flutter:
   uses-material-design: true
   assets:
-    - assets/task.txt
+    - assets/day_one.txt
+    - assets/day_two.txt
