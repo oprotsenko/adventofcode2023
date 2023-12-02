@@ -33,6 +33,7 @@ class MainBloc extends Bloc<MainEvent, MainState> {
   Future<void> _day2() async {
     final List<String> fileContent =
         await _getListOfLines('assets/day_two.txt');
-    print('day two task one: ${await _task21(fileContent)}');
+    print('day two task one: ${await _task1Day2(fileContent)}');
+    print('day two task two: ${await _task2Day2(fileContent)}');
   }
 }
